@@ -1,4 +1,12 @@
-# SlotSwapper - Peer-to-Peer Time Slot Scheduling Application
+# 🔄 SlotSwapper - Peer-to-Peer Time Slot Scheduling Application
+
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)](https://www.mongodb.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> A full-stack MERN application enabling users to swap calendar time slots with peer-to-peer transactions, built for the ServiceHive Full Stack Intern technical challenge.
 
 ## 🎯 Project Overview
 
@@ -19,10 +27,26 @@ Users manage their calendars with events/time slots. They can:
 4. Accept or reject incoming swap requests
 5. Upon acceptance, the ownership of both slots is automatically exchanged
 
----
+## 📸 Screenshots
 
-## 🛠️ Technology Stack
+### Dashboard - Calendar View
+The main dashboard displays your events in a weekly calendar grid with color-coded status indicators:
+### Frontend
+- **React 18.2** - Modern UI framework with hooks
+- **React Router v6** - Client-side routing with protected routes
+- **Bootstrap 5.3.8** - Responsive UI components and grid system
+- **react-toastify** - Toast notifications for user feedback
+- **Axios** - HTTP client with JWT interceptors
+- **date-fns** - Date formatting and manipulation
+- **Material Icons** - Professional iconography
 
+### Backend
+- **Node.js + Express 4.18.2** - RESTful API server
+- **MongoDB Atlas + Mongoose 7.6.3** - Cloud NoSQL database with ODM
+- **JWT (jsonwebtoken)** - Secure token-based authentication
+- **bcryptjs** - Password hashing with salt rounds
+- **CORS** - Cross-origin resource sharing
+- **dotenv** - Environment variable management
 ### Frontend
 - **React 18.2** - Modern UI framework
 - **React Router v6** - Client-side routing with protected routes
@@ -136,16 +160,16 @@ Users manage their calendars with events/time slots. They can:
 
 ---
 
-## 🚀 Local Setup Instructions
+## 🚀 Quick Start Guide
 
 ### Prerequisites
-- Node.js v14+ and npm
-- MongoDB Atlas account (or local MongoDB installation)
-- Git
+- **Node.js v14+** and npm
+- **MongoDB Atlas** account (free tier works) - [Sign up here](https://www.mongodb.com/cloud/atlas/register)
+- **Git** for version control
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/SujalTripathi/slotswapper.git
 cd slotswapper
 ```
 
@@ -536,12 +560,18 @@ slotswapper/
 ### Planned Improvements
 - [ ] **Unit/Integration Tests:** Jest/Mocha for backend API testing
 - [ ] **Real-time Notifications:** WebSocket integration for instant swap notifications
-- [ ] **Deployment:** Frontend on Vercel, Backend on Render/Heroku
+- [ ] **Deployment:** 
+  - Frontend: Vercel/Netlify
+  - Backend: Render/Railway/Heroku
+  - Database: MongoDB Atlas (already cloud-ready)
 - [ ] **Containerization:** Docker + docker-compose for one-command setup
 - [ ] **Email Notifications:** Nodemailer for swap request alerts
-- [ ] **Calendar Integration:** Google Calendar sync
-- [ ] **Advanced Filtering:** Search/filter in Marketplace
-- [ ] **Swap History:** Transaction log with undo capability
+- [ ] **Calendar Integration:** Google Calendar API sync
+- [ ] **Advanced Filtering:** Search by date, time, user in Marketplace
+- [ ] **Swap History:** Transaction log with detailed audit trail
+- [ ] **User Profiles:** Avatar uploads, bio, ratings system
+- [ ] **Recurring Events:** Support for repeating time slots
+- [ ] **Export/Import:** Calendar data export to iCal/CSV format
 
 ---
 
@@ -561,23 +591,58 @@ This project was built as part of the **ServiceHive Full Stack Intern** technica
 
 MIT License - Feel free to use this project for learning purposes.
 
----
-
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**Sujal Tripathi**
+- GitHub: [@SujalTripathi](https://github.com/SujalTripathi)
+- Project Repository: [SlotSwapper](https://github.com/SujalTripathi/slotswapper)
 
 ---
 
 ## 📞 Contact & Support
 
 If you have any questions or need clarification about the implementation:
+- Open an issue on [GitHub Issues](https://github.com/SujalTripathi/slotswapper/issues)
+- Star ⭐ this repo if you find it helpful!ed clarification about the implementation:
 - Open an issue on GitHub
 - Email: your.email@example.com
 
 ---
 
-**Built with ❤️ for ServiceHive**
+## 🌟 Key Features Highlight
+
+### ✨ What Makes SlotSwapper Special
+
+1. **Atomic Swap Transactions**
+   - Guaranteed ownership exchange with no data loss
+   - Prevents race conditions with SWAP_PENDING status
+   - Rollback mechanism on rejection
+
+2. **Real-time State Management**
+   - Instant UI updates without page refresh
+   - Optimistic updates for smooth UX
+   - React Context for global auth state
+
+3. **Security First**
+   - JWT authentication with 30-day expiration
+   - bcrypt password hashing (10 salt rounds)
+   - Authorization checks on every protected endpoint
+   - CORS-enabled for secure cross-origin requests
+
+4. **Responsive Design**
+   - Mobile-first Bootstrap grid system
+   - Touch-friendly UI elements
+   - Adaptive calendar layout
+   - Professional gradient headers and animations
+
+5. **User Experience**
+   - Toast notifications for all actions
+   - Color-coded status indicators
+   - Intuitive swap request flow
+   - Clear error messages and validation
+
+---
+
+**Built with ❤️ for ServiceHive Full Stack Intern Technical Challenge**
+
+**⭐ Star this repo if you found it helpful!**
