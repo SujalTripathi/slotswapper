@@ -31,6 +31,11 @@ Users manage their calendars with events/time slots. They can:
 
 <img width="1918" height="975" alt="image" src="https://github.com/user-attachments/assets/8ff12414-f0c7-45d4-8ed2-307b14982599" />
 
+<img width="1164" height="879" alt="image" src="https://github.com/user-attachments/assets/d004c3d8-9cf0-4887-8d2e-63720a30233a" />
+
+<img width="1915" height="963" alt="image" src="https://github.com/user-attachments/assets/be620089-f3f2-46de-8587-e967d3086ca3" />
+
+
 
 ### Dashboard - Calendar View
 The main dashboard displays your events in a weekly calendar grid with color-coded status indicators:
@@ -649,4 +654,5 @@ If you have any questions or need clarification about the implementation:
 **Built with ❤️ for ServiceHive Full Stack Intern Technical Challenge**
 
 **⭐ Star this repo if you found it helpful!**
+
 
