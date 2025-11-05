@@ -8,6 +8,14 @@
 
 > A full-stack MERN application enabling users to swap calendar time slots with peer-to-peer transactions, built for the ServiceHive Full Stack Intern technical challenge.
 
+## 🌐 Live Demo
+
+**🚀 [View Live Application](https://slotswapper-client.onrender.com)**
+
+**📦 [GitHub Repository](https://github.com/SujalTripathi/slotswapper)**
+
+> **Note:** The app is hosted on Render's free tier. If it's the first request after inactivity, please allow 30-60 seconds for the services to wake up.
+
 ## 🎯 Project Overview
 
 **SlotSwapper** is a full-stack web application that enables users to swap time slots in their calendars with other users. Built as part of the ServiceHive Full Stack Intern technical challenge, this application demonstrates expertise in:
@@ -17,6 +25,20 @@
 - Real-time state management
 - Responsive UI/UX design
 - Database schema design for relational data
+
+## 🧪 Quick Test Guide
+
+Want to test the live app? Follow these steps:
+
+1. **Visit**: [https://slotswapper-client.onrender.com](https://slotswapper-client.onrender.com)
+2. **Sign Up**: Create an account with any email (e.g., `test@example.com`)
+3. **Create Events**: Add some time slots on your dashboard
+4. **Mark as Swappable**: Click an event → "Make Swappable" (turns green)
+5. **Open Incognito**: Create a second user account
+6. **Browse Marketplace**: See the first user's swappable slots
+7. **Request Swap**: Select your slot to offer in exchange
+8. **Switch Back**: Accept the swap request as the first user
+9. **Verify**: Check that both events have exchanged ownership! 🎉
 
 ### The Core Concept
 
